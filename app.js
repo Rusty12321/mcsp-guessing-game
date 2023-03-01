@@ -52,7 +52,7 @@ function mainGame() {
                     alert(`That's correct ${name}! It took you ${guessCount} guess.`);
                 }
             } else if (users[name] < guessCount) {
-                alert(`That's correct ${name}! It took you ${guessCount} ${pluralOrNotGuessCount}. You did better in your last game by ${better}  ${pluralOrNotBetter}!`);
+                alert(`That's correct ${name}! It took you ${guessCount} ${pluralOrNotGuessCount}. You did better in your last game by ${better} ${pluralOrNotBetter}!`);
                 } else if (guessCount < users[name]) {
                 alert(`That's correct ${name}! It took you ${guessCount} ${pluralOrNotGuessCount}. You beat your previous attempt by ${worse} ${pluralOrNotWorse}!`);
             } else {
